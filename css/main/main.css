@@ -1,0 +1,20 @@
+main div{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-white) ;
+  color: var(--color-gray) !important;
+}
+
+.cars-inicials{
+  padding: 20px !important;
+}
+
+.h1-produtos{
+  font-size: 40px;
+  text-transform: uppercase; 
+}
+
+.img-card {
+  width: 400px;
+  height: 500px;
+}

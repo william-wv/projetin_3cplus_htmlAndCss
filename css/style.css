@@ -1,0 +1,38 @@
+@import "./header/header.css";
+@import "./header/header-mobile.css";
+
+@import "./main/main.css";
+@import "./main/main-mobile.css";
+
+:root {
+  --color-background-header: #191a21;
+  --color-blackgrauns-main: #191a21;
+  --color-white: #eceef0;
+  --color-text-white: #d5d6da;
+  --color-gray: #25262c;
+}
+
+*{
+  padding: 0;
+  border: 0;
+}
+
+html,body {
+  overflow: hidden;
+  background-color: var(--color-background-header) !important;
+  color: var(--color-text-white);
+}
+
+body {
+  height: 100%;
+  display: flex;
+}
+
+li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text-white);
+}
