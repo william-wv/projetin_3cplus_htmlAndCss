@@ -1,3 +1,7 @@
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+/* css import */
 @import "./header/header.css";
 @import "./header/header-mobile.css";
 
@@ -28,6 +32,12 @@ body {
   display: flex;
 }
 
+p,li,h1,a,b{
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 li{
   list-style: none;
 }
@@ -35,4 +45,8 @@ li{
 a {
   text-decoration: none;
   color: var(--color-text-white);
+}
+
+.d-flex {
+  display: flex;
 }
