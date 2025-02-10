@@ -1,8 +1,12 @@
 
 @media (max-width: 1259px){
 .container-header{
-    display: none !important;
-  }
+  display: none;
+    position: static;
+    }
+.header-container-mobile {
+  display: none !important;
+}
 } 
 
 @media (min-width: 1260px){
@@ -15,12 +19,12 @@
 }
 
 .container-header{
-  position: static;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 30vh;
+  width: 15vw;
   height: 100vh;
   border-right: 1px solid var(--color-gray);
   font-size: 20px;
@@ -31,16 +35,15 @@
 }
 
 .nav-bar {
-  margin-left: -20px;
   line-height: 1.8;
 }
+
 
 header  .div-nav-bar  .nav-bar > .li-item{
   font-size: 25px; 
 }
 
 .card-shop {
-  margin-left: -20px;
   background-color: var(--color-gray);
   border-radius: 50%;
   width: 80px;
@@ -52,8 +55,4 @@ header  .div-nav-bar  .nav-bar > .li-item{
 
 .opacity-70 {
   opacity: 0.7;
-}
-.img-card-shop{
-  width: 50px;
-  height: 50px;
 }
