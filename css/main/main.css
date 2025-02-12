@@ -1,3 +1,7 @@
+.section__main{
+  margin-bottom: 50px;
+}
+
 /* busca */
 .section__search{
  padding: 0 10px; 
@@ -47,13 +51,7 @@
 
 .div-localization__main{
   line-height: 1.4;
-}
-
-.div-localization__main p {
-  font-size: 15px;
-}
-
-.div-localization__main h1 {
+}div-btn__vermismain h1 {
   font-size: 24px;
   font-weight: 500;
 }
@@ -100,6 +98,22 @@
   color: #ffffff;
 }
 
+.btn__vermais{
+  width: 25%;
+  padding: 5px;
+  background-color: transparent;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.div-btn__vermis {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .main__boxes {
     margin-top: 30px;
@@ -112,6 +126,14 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .btn__vermais{
+    width: 15%;
+    padding: 5px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 30px;
   }
 }
 
