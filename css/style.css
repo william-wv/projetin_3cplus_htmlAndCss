@@ -1,38 +1,61 @@
 @import "./header/header.css";
-@import "./header/header-mobile.css";
-
 @import "./main/main.css";
-@import "./main/main-mobile.css";
+@import "./footer/footer.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 :root {
   --color-background-header: #191a21;
   --color-blackgrauns-main: #191a21;
-  --color-white: #eceef0;
+  --color-white: #fff;
+  --color-white-500: #eceef0;
   --color-text-white: #d5d6da;
   --color-gray: #25262c;
 }
 
-*{
+
+* {
+  margin: 0;
   padding: 0;
-  border: 0;
+  box-sizing: border-box;
 }
 
-html,body {
-  overflow: hidden;
-  background-color: var(--color-background-header) !important;
-  color: var(--color-text-white);
-}
 
-body {
-  height: 100%;
-  display: flex;
+header {
+  width: 100vw; /* Usa toda a largura da tela */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 li{
   list-style: none;
 }
 
-a {
+a { padding: 0;
+  border: 0;
   text-decoration: none;
   color: var(--color-text-white);
+}
+
+p,li,a,button,h1,h2,h3 {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+.active {
+  display: flex;
+}
+.enable {
+  display: none;
+}
+
+.opacity{
+  opacity: 70%;
 }
