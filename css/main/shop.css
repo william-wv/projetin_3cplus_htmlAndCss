@@ -1,0 +1,91 @@
+.section__carrinho {
+  padding:  30px;
+}
+.div-h1__sacola{
+  padding: 30px 0;
+  font-size: 20px;
+}
+.div__carrinho{
+  border: 1px solid black;
+}
+
+.div-img__carrinho{
+  align-items: center;
+  width: 40%;
+  height: auto;
+}
+
+
+.txt-nome__carrinho{
+  font-size: 1rem;
+}
+
+.div-text__carrinho{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  justify-content: center;
+  padding-left: 10px;
+
+}
+
+.div-btn__adc_rmv{
+  padding: 15px;
+}
+
+.btn__adc_rmv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  padding: 8px !important;
+  border-radius: 0;
+  padding: 3px 3px;
+}
+
+.btn-adc{
+  border-radius: 10px 0 0 10px;
+}
+
+.btn-rmv{
+  border-radius: 0 10px 10px 0;
+  background-color: red;
+}
+
+.div_box__total {
+  margin: 10px;
+  border-top: 1px solid black;
+  padding: 15px 10px 0 ;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.div-btn__finalizar{
+  position: relative;
+  top: -5px;
+}
+
+@media (min-width: 1024px){
+  .section__carrinho {
+    padding: 50px 100px;
+  }
+  .div-btn__adc_rmv{
+  padding: 80px 0px;
+   }
+}
+
+
+@media (min-width: 1440px){
+ 
+  .section__carrinho {
+    padding: 100px 250px;
+  }
+  
+  .div-btn__adc_rmv{
+ padding: 100px 0px;
+  }
+  
+}

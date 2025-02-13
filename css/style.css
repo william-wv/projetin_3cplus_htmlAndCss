@@ -2,6 +2,7 @@
 @import "./main/main.css";
 @import "./footer/footer.css";
 @import "./main/clube.css";
+@import"./main/shop.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
@@ -45,6 +46,9 @@ p,li,a,button,h1,h2,h3 {
   font-style: normal;
 }
 
+header input {
+  display: none;
+}
 
 .d-flex {
   display: flex;

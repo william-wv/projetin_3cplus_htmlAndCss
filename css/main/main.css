@@ -151,3 +151,38 @@
     white-space: nowrap;
   }
 }
+
+@media (min-width: 1440px) {
+  .main__boxes {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat( 4 ,1fr);
+    gap: 1rem;
+  }
+
+  .section__clube{
+    padding: 50px;
+  }
+
+  .div-txt__clube {
+    padding: 0 6rem;
+  }
+}
+
+@media (min-width: 2560px) {
+ .div-localization__main p,h1 , 
+ .div__tenis, .btn__tenis, .container__form, button {
+    font-size: 2rem !important;
+  }
+  
+  .logo__clube  {
+    width: 15vw !important;
+  }
+  .text__clube{
+    font-size: 3rem !important;
+  }
+  .h1-clube{
+    font-size: 3rem !important;
+
+  }
+}

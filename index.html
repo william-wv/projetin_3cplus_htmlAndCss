@@ -21,18 +21,27 @@
           </div>
 
           <div class="menu-container d-flex">
-            <div class="imgs__header">
-              <img
-                class="img__header"
-                src="./img/header/fav.png"
-                alt="favoritos"
-              />
+            <div class="imgs__header d-flex">
+              <label class="container label__favorite">
+                <input type="checkbox" />
+                <img
+                  class="img__header"
+                  src="./img/header/fav.png"
+                  alt="favoritos"
+                />
+              </label>
               <span class="espacamento__header"></span>
-              <img
-                class="img__header"
-                src="./img/header/bag.gif"
-                alt="compras"
-              />
+
+             <label class="container label__compra">
+                <input type="checkbox" /> 
+              <a href="./shop.html">
+                <img
+                  class="img__header"
+                  src="./img/header/bag.gif"
+                  alt="compras"
+                />
+              </a>
+            
             </div>
 
             <input type="checkbox" id="menu-toggle" />
@@ -61,7 +70,7 @@
     </header>
 
     <main>
-      <section class="section__search d-flex">
+      <section class="section__search d-flex" id="conteudo">
         <div class="divBusca">
           <input type="text" class="txtBusca" placeholder="Buscar produto..." />
           <div class="div-img__scratch">
@@ -197,6 +206,126 @@
               </div>
             </div>
           </div>
+          <!-- box 7 -->
+          <div class="box box__tenis">
+            <div>
+              <img
+                src="./img/tenis/image copy.png"
+                width="100%"
+                alt=""
+                class="img__tenis"
+              />
+            </div>
+            <div class="div-separacao__card">
+              <div class="div__tenis">
+                <h3 class="name__tenis">Nike Classic Cortez</h3>
+                <p class="price__tenis">$ 100</p>
+              </div>
+              <div class="div-btn__tenis">
+                <button class="btn__tenis">adicionar a sacola</button>
+              </div>
+            </div>
+          </div>
+          <!-- box 8 -->
+          <div class="box box__tenis">
+            <div>
+              <img
+                src="./img/tenis/image copy.png"
+                width="100%"
+                alt=""
+                class="img__tenis"
+              />
+            </div>
+            <div class="div-separacao__card">
+              <div class="div__tenis">
+                <h3 class="name__tenis">Nike Classic Cortez</h3>
+                <p class="price__tenis">$ 100</p>
+              </div>
+              <div class="div-btn__tenis">
+                <button class="btn__tenis">adicionar a sacola</button>
+              </div>
+            </div>
+          </div>
+          <!-- box 9 -->
+          <div class="box box__tenis">
+            <div>
+              <img
+                src="./img/tenis/image copy.png"
+                width="100%"
+                alt=""
+                class="img__tenis"
+              />
+            </div>
+            <div class="div-separacao__card">
+              <div class="div__tenis">
+                <h3 class="name__tenis">Nike Classic Cortez</h3>
+                <p class="price__tenis">$ 100</p>
+              </div>
+              <div class="div-btn__tenis">
+                <button class="btn__tenis">adicionar a sacola</button>
+              </div>
+            </div>
+          </div>
+          <!-- box 10 -->
+          <div class="box box__tenis">
+            <div>
+              <img
+                src="./img/tenis/image copy.png"
+                width="100%"
+                alt=""
+                class="img__tenis"
+              />
+            </div>
+            <div class="div-separacao__card">
+              <div class="div__tenis">
+                <h3 class="name__tenis">Nike Classic Cortez</h3>
+                <p class="price__tenis">$ 100</p>
+              </div>
+              <div class="div-btn__tenis">
+                <button class="btn__tenis">adicionar a sacola</button>
+              </div>
+            </div>
+          </div>
+          <!-- box 11 -->
+          <div class="box box__tenis">
+            <div>
+              <img
+                src="./img/tenis/image copy.png"
+                width="100%"
+                alt=""
+                class="img__tenis"
+              />
+            </div>
+            <div class="div-separacao__card">
+              <div class="div__tenis">
+                <h3 class="name__tenis">Nike Classic Cortez</h3>
+                <p class="price__tenis">$ 100</p>
+              </div>
+              <div class="div-btn__tenis">
+                <button class="btn__tenis">adicionar a sacola</button>
+              </div>
+            </div>
+          </div>
+          <!-- box 12 -->
+          <div class="box box__tenis">
+            <div>
+              <img
+                src="./img/tenis/image copy.png"
+                width="100%"
+                alt=""
+                class="img__tenis"
+              />
+            </div>
+            <div class="div-separacao__card">
+              <div class="div__tenis">
+                <h3 class="name__tenis">Nike Classic Cortez</h3>
+                <p class="price__tenis">$ 100</p>
+              </div>
+              <div class="div-btn__tenis">
+                <button class="btn__tenis">adicionar a sacola</button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="div-btn__vermis">
@@ -221,14 +350,15 @@
               se divertir e aproveitar o fim de semana com as melhores opções de
               calçados.
             </p>
-          
-              <button class="btn__clube">
-                <a href="#" class="btn__clube">Saiba mais</a>
-              </button>
-           
+
+            <button class="btn__clube">
+              <a href="#" class="btn__clube">Saiba mais</a>
+            </button>
           </div>
         </div>
       </section>
+
+      <section class="enable section__compras"></section>
     </main>
 
     <footer>
@@ -244,7 +374,7 @@
           <label for="mensagem">Mensagem:</label>
           <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
 
-          <button type="submit">Enviar</button>
+          <button class="btn-footer__form_enviar" type="submit">Enviar</button>
         </form>
       </div>
     </footer>
