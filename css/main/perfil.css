@@ -1,0 +1,93 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #f4f4f4;
+}        
+
+.login-container {
+  background: white;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-login {
+  background: #28a745;
+  color: white;
+}
+.btn-login:hover {
+  background: #218838;
+}
+.btn-signup {
+  background: #007bff;
+  color: white;
+}
+.btn-signup:hover {
+  background: #0056b3;
+}
+
+.div__conta{
+  gap: 20px !important;
+  margin-bottom: 40px !important;
+
+}
+
+
+
+.entrar_com {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.btn__redes{
+  background-color: var(--color-white-500);
+  padding: 5px;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.entrar_como {
+  cursor: pointer;
+  width: 40px;
+}
+
+@media (min-width: 1024px)  {
+  .login-container {
+    padding: 140px !important;
+  }
+}
+
+@media (min-width: 2560px)  {
+
+  .login-container h2 {
+    font-size: 5rem;
+  }
+  .login-container {
+    padding: 300px !important;
+  }
+  
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <section class="section-header__mobile">
+      <div class="header-container-mobile d-flex">
+        <div class="div-logo">
+          <img src="./img/header/logo.png" alt="Logo da loja" class="img-logo" />
+        </div>
+
+        <div class="menu-container d-flex">
+          <div class="imgs__header d-flex">
+            <label class="container label__favorite">
+              <input type="checkbox" />
+              <img class="img__header" src="./img/header/fav.png" alt="favoritos" />
+            </label>
+            <span class="espacamento__header"></span>
+
+            <label class="container label__compra">
+              <input type="checkbox" />
+              <a href="./shop.html">
+                <img class="img__header" src="./img/header/bag.gif" alt="compras" />
+              </a>
+
+          </div>
+
+          <input type="checkbox" id="menu-toggle" />
+          <span class="espacamento__header"></span>
+          <label for="menu-toggle" class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <nav class="nav-bar-mobile">
+            <ul>
+              <li style="margin-top: 50px; border-top: 1px solid black">
+                <a href="#">Sobre</a>
+              </li>
+              <li><a href="./perfil.html">Home</a></li>
+              <li><a href="./index.html">Produtos</a></li>
+              <li><a href="#">Lançamentos</a></li>
+              <li><a href="#">Contate-nos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-header__desktop enable"></section>
+  </header>
+
+  <main class="">
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="text" id="username" placeholder="Usuário" required>
+        <input type="password" id="password" placeholder="Senha" required>
+
+      </form>
+      <div class="d-flex div__conta">
+        <button type="submit" class="btn-login">Entrar</button>
+        <button class="btn-signup">Criar Conta</button>
+      </div>
+
+      <div class="d-flex entrar_com">
+        <div class="btn__redes">
+          <img class="entrar_como" src="./img/formas-log/google.png" alt="">
+        </div>
+        <div class="btn__redes"> 
+          <img class="entrar_como" src="./img/formas-log/ios.png" alt="">
+        </div>    
+        <div class="btn__redes">
+          <img class="entrar_como" src="./img/formas-log/outlook.png" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+  </main>
+
+</body>
+
+</html>
